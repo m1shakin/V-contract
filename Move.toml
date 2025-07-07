@@ -1,0 +1,12 @@
+[package]
+name    = "Secure"
+version = "0.0.1"
+published-at = "0x2d04f5511d46a41ec56211376dfda42970e87eccf0a1d49723f7d54ebb21d16f"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "framework/mainnet"
+
+[addresses]
+Secure = "0x2d04f5511d46a41ec56211376dfda42970e87eccf0a1d49723f7d54ebb21d16f"
